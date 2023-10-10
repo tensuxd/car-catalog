@@ -1,23 +1,29 @@
-.item {
-  border: 1px solid gray;
+body {
+  margin: 20px;
 }
 
-.image {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 50%;
-  height: 300px;
+input {
+  width: 200px;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  transition: border 0.4s ease;
+  border: 1px solid transparent;
+  margin: 5px 0px;
 }
 
-.info {
-  padding: 10px;
+input:focus {
+  border: 1px solid rgb(6, 149, 245);
 }
 
-.info h2{
-    margin-bottom: 5px;
+button {
+  padding: 5px;
+  border: none;
+  border-radius: 2px;
+  transition: all 0.4s ease;
 }
 
-.info p{
-    margin-bottom: 10px;
+button:hover {
+  background-color: gray;
+  cursor: pointer;
 }
